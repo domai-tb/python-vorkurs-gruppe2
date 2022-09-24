@@ -7,4 +7,4 @@
 
 a = int(input('a = '))
 b = int(input('b = '))
-print(f'a + b = {a+b}')
+print(f'Ergebnis: {a} + {b} = {a+b}')

@@ -17,8 +17,8 @@ while cntWrong != maxWrong:
             break
         else:
             cntWrong += 1
-            if cntWrong == 3:
-                print('three times wrong')
+            if cntWrong == maxWrong:
+                print(f'{maxWrong} times wrong!')
 
     except ValueError:
         print(f'Deine Eingabe entspricht nicht den Passwort-Richtlinien!')

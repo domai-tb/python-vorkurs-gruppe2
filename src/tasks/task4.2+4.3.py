@@ -33,7 +33,7 @@ books = [
     },
 ]
 
-# Alternative 1: Naive Methode
+# Alternative 1: Naive Methode, aber mit Formatierung
 for book in books:
     for key in book.keys():
         if key == 'Preis':
@@ -43,10 +43,10 @@ for book in books:
     print()  # print('\n')
 
 # Alternative 2: Pointer auf eine Liste (keine Formatierung)
-# print(*books, sep='\n', end='\n\n')
+print(*books, sep='\n', end='\n\n')
 
 # Alternative 3: Inline Loops (keine Formatierung)
-# print([[f'{book.get(key)}' for key in book.keys()] for book in books])
+print(*[[f'{book.get(key)}' for key in book.keys()] for book in books], end="\n\n")
 
 # ---------------- Tupel -------------------------------------------------------
 
@@ -77,7 +77,7 @@ books = [
     ['Academic English for Computer Science', 'Noni Rizopoulou', 2, 23.42],
 ]
 
-# Tupel ist eine read-only Liste > Code für die Ausgabe ist identisch
+# Tupel ist eine read-only Liste -> Code für die Ausgabe ist identisch
 for book in books:
     for attribut in book:
         if attribut == book[-1]:

@@ -35,11 +35,14 @@ dna_seq_modified = dna_sequence.replace("C", "A")
 print(f'10.: dna_sequence.replace("C", "A") \t=\t {dna_seq_modified}')
 
 # 11. Gebe für die obere dna_sequence den invertierten 5-3 Strang aus
-inverted_repeat = dna_sequence.replace('A', 't') \
-                              .replace('T', 'a') \
-                              .replace('G', 'c') \
-                              .replace('C', 'g') \
-                              .upper()
+inverted_repeat = dna_sequence[::-1]                    # invertiere String
+
+# ersezte Basenpaare -> nicht Teil der Aufgabenstellung, aber verdeutlicht Methodenaufrufe
+inverted_repeat = inverted_repeat.replace('A', 't') \
+                                 .replace('T', 'a') \
+                                 .replace('G', 'c') \
+                                 .replace('C', 'g') \
+                                 .upper()               
 print(f'11.: inverted_repeat \t\t\t=\t {inverted_repeat}')
 
 # 12. Erzeuge zwei neue Variablen dna_seq2 und dna_seq3. Jede Variable verfügt

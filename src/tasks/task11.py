@@ -30,6 +30,7 @@ def calcNumCoins(cents: int) -> int:
         # Keine Cents mehr übrig
         if cents == 0:
             break
+
     return numCoins
 
 
