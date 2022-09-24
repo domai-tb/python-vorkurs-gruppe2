@@ -1,0 +1,13 @@
+{
+  "files.autoSave": "onFocusChange", // automatisches Speichern
+  "explorer.confirmDragAndDrop": false, // Dateien verschieben ohne Bestätigung
+  "explorer.confirmDelete": false, // Dateien löschen ohne Bestätigung
+
+  // Zeige uns zugehörige Klammern farblich an
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+
+  "editor.tabSize": 4, // Ein Tab entspricht 4 Leerzeichen
+  "editor.rulers": [80, 120], // Setzte Hilflinien bei 80 und 120 Zeichen der Zeile
+  "editor.formatOnSave": true // Automatisches Formatieren beim Speichern?
+}
