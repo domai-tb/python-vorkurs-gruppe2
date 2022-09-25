@@ -341,7 +341,6 @@ breite, höhe = 10, 20
 
 # Definiere unser Spiel als Objekt der Klasse Tetris
 game = Tetris(höhe, breite)
-print(game.aktuellerStein)
 
 # --- Game Loop ----------------------------------------------------------------
 
