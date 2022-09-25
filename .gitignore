@@ -1,1 +1,3 @@
-.vscode
+# Üblicherweise werden die folgenden Ordner nicht im Git gespeichert:
+#.vscode    # VS-Code spezifischer Ordner
+#.venv      # virtuelle Python-Umgebung / Nicht die Systemweite Installation
