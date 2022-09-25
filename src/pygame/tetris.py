@@ -10,11 +10,11 @@ pygame.init()
 
 class Tetromino:
 
-    x: int = 0  # x-Koordinate des Steins
-    y: int = 0  # y-Koordinate des Steins
-    typ: int = 0  # Typ / Form des Steins
-    farbe: tuple = (0, 0, 0)  # Farbe des Steins als (R, G, B)-Tupel
-    rotation: int = 0  # Variante / Rotation des Steins
+    x: int  # x-Koordinate des Steins
+    y: int  # y-Koordinate des Steins
+    typ: int  # Typ / Form des Steins
+    farbe: tuple  # Farbe des Steins als (R, G, B)-Tupel
+    rotation: int  # Variante / Rotation des Steins
 
     # Stelle unsere Blöcke als 4x4 Matrix dar. Da jeder Block gedreht werden kann
     # bekommt jeder Block verschiedene Variationen:
